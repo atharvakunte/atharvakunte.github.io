@@ -1,169 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Atharva Kunte</title>
-</head>
-<body>
-    <header class="header-section">
-        <span class="header-design"><  /></span>
-        <h1>Hi!</h1>
-        <h2>I'm Atharva,</h2>
-        <h2 class="typewriter-text">a web developer</h2>
-    </header>
-    <section class="about-me-section">
-        <h2>About me</h2>
-        <div class="about-container">
-            <img class="about-img" src="./images/me.jpg" alt="Atharva Kunte">
-            <p class="about-p">I'm Atharva Kunte, a final year Electronics and Telecommunication undergrad 
-                at Pimpri Chinchwad College of Engineering, Pune. I have an interest in web development
-                and like to make apps with good designs. I have completed a bootcamp on MERN stack 
-                where learnt about javascript frameworks like React js and Node.js. 
-            </p>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav-mobile">
+        <div class="navbar">
+          <div class="nav-wrapper">
+              <a href="/"><img src="./images/me.jpg" class="nav-logo"></a>
+              <input type="checkbox" class="nav-toggle" id="nav-toggle">
+              <ul class="nav">
+                  <li><a href="/" class="nav-link">Home</a></li>
+                  <li><a href="https://blog.atharvakunte.me" class="nav-link">Blog</a></li>
+              </ul>
+              <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+          </div>
+      </div>
+      </div>
+      <div class="nav-div">
+        <img class="about-img" src="./images/me.jpg" alt="Atharva Kunte" />
+        <h3>Atharva Kunte</h3>
+        <div class="nav-list">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://blog.atharvakunte.me">Blog</a></li>
+          </ul>
         </div>
-    </section>
-    <section class="skills-section">
-        <h2>My Skills</h2>
-        <div class="skills-container">
-            <div class="skill">
-                <div>
-                    <h3>HTML</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                </div>
-
-            </div>
-            <div class="skill">
-                <div>
-                    <h3>CSS</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                </div>
-
-            </div>
-            <div class="skill">
-                <div>
-                    <h3>Javascript</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                </div>
-
-            </div>
-            <div class="skill">
-                <div>
-                    <h3>C++</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star "></i>
-                <i class="fas fa-star "></i>
-                </div>
-
-            </div>
-            <div class="skill">
-                <div>
-                    <h3>React js</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                </div>
-
-            </div>
-            <div class="skill">
-                <div>
-                    <h3>Node.js</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                </div>
-
-            </div>
-            <div class="skill">
-                <div>
-                    <h3>MongoDB</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <section class="project-section">
-        <h2>My Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <img class="project-img" src="./images/gradientss.png" alt="cricscore image">
-                <h3>Gradient Generator</h3>
-                <p>A simple HTML, CSS and JS project where you can play around with linear gradient css property.</p>
-                <div class="btn-container">
-                    <a class="proj-link-btn" href="https://atharvakunte.github.io/gradient-generator/">View Project</a>
-                    <a href="https://github.com/atharvakunte/gradient-generator" class="proj-code-btn">View Source code</a>
-                </div>
-            </div>
-            <div class="project">
-                <img class="project-img" src="./images/cricscoress.png" alt="cricscore image">
-                <h3>CricScore</h3>
-                <p>Integrates Rapid API's Cricket live score API with React js to display live cricket score.</p>
-                <div class="btn-container">
-                    <a class="proj-link-btn" href="https://cricscore-app.netlify.app/">View Project</a>
-                    <a href="https://github.com/atharvakunte/cricscore-" class="proj-code-btn">View Source code</a>
-                </div>
-            </div>
-            <div class="project">
-                <img class="project-img" src="./images/shawandsonsss.png" alt="Shaw and sons image">
-                <h3>Shaw and Sons</h3>
-                <p>A sample website design for barber shop using HTML, CSS and Javascript.</p>
-                <div class="btn-container">
-                    <a class="proj-link-btn" href="https://atharvakunte.github.io/barber-sample-website/">View Project</a>
-                    <a href="https://github.com/atharvakunte/barber-sample-website" class="proj-code-btn">View Source code</a>
-                </div>
-            </div>
-            <div class="project">
-                <img class="project-img" src="./images/ecomss.png" alt="Online store image">
-                <h3>Online Store (In progress)</h3>
-                <p>E-commerce app built with Nodejs backend and React js frontend with Razorpay integration.</p>
-                <div class="btn-container">
-                    <a class="proj-link-btn" href="#">View Project</a>
-                    <a href="https://github.com/atharvakunte/ecommercenewfrontend" class="proj-code-btn">View Frontend Source code</a>
-                    <a href="https://github.com/atharvakunte/Ecommercebackend" class="proj-code-btn">View Backend Source code</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="contact-me-section">
-        <h2>Contact Me</h2>
-        <p>Want to hire me or just say Hi?</p>
-        <p>Feel free to drop a mail at <a class="email" href="mailto:kunteatharva@gmail.com">kunteatharva@gmail.com</a></p>
         <div class="social-icons">
-            <a href="https://www.linkedin.com/in/atharva-kunte-41a398172/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/Athsamkun"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://twitter.com/kunte_atharva"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.instagram.com/atharva.kunte/"><i class="fab fa-instagram-square"></i></a>
+          <a href="https://www.linkedin.com/in/atharva-kunte-41a398172/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/Athsamkun"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+          <a href="https://twitter.com/kunte_atharva"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a href="https://www.instagram.com/atharva.kunte/"
+            ><i class="fab fa-instagram-square"></i
+          ></a>
         </div>
-    </footer>
-
-</body>
+      </div>
+      <div class="content-div">
+        <header class="header-section">
+          <span class="header-design">< /></span>
+          <h1>Hi!</h1>
+          <h2>I'm Atharva,</h2>
+          <h2 class="typewriter-text">a web developer</h2>
+        </header>
+        <section class="about-me-section">
+          <h2>About me</h2>
+          <div class="about-container">
+            <p class="about-p">
+              I'm Atharva Kunte, a final year Electronics and Telecommunication
+              undergrad at Pimpri Chinchwad College of Engineering, Pune. I have an
+              interest in web development and like to make apps with good designs. I
+              have completed a bootcamp on MERN stack where learnt about javascript
+              frameworks like React js and Node.js.
+            </p>
+          </div>
+        </section>
+        <section class="skills-section">
+          <h2>My Skills</h2>
+          <div class="skills-container">
+            <div class="skill">
+              <div>
+                <h3>HTML</h3>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div>
+                <h3>CSS</h3>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div>
+                <h3>Javascript</h3>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div>
+                <h3>C++</h3>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div>
+                <h3>React js</h3>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div>
+                <h3>Node.js</h3>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div>
+                <h3>MongoDB</h3>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star g"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="project-section">
+          <h2>My Projects</h2>
+          <div class="projects-container">
+            <div class="project">
+              <img
+                class="project-img"
+                src="./images/gradientss.png"
+                alt="cricscore image"
+              />
+              <h3>Gradient Generator</h3>
+              <p>
+                A simple HTML, CSS and JS project where you can play around with
+                linear gradient css property.
+              </p>
+              <div class="btn-container">
+                <a
+                  class="proj-link-btn"
+                  href="https://atharvakunte.github.io/gradient-generator/"
+                  >View Project</a
+                >
+                <a
+                  href="https://github.com/atharvakunte/gradient-generator"
+                  class="proj-code-btn"
+                  >View Source code</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                class="project-img"
+                src="./images/cricscoress.png"
+                alt="cricscore image"
+              />
+              <h3>CricScore</h3>
+              <p>
+                Integrates Rapid API's Cricket live score API with React js to
+                display live cricket score.
+              </p>
+              <div class="btn-container">
+                <a class="proj-link-btn" href="https://cricscore-app.netlify.app/"
+                  >View Project</a
+                >
+                <a
+                  href="https://github.com/atharvakunte/cricscore-"
+                  class="proj-code-btn"
+                  >View Source code</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                class="project-img"
+                src="./images/shawandsonsss.png"
+                alt="Shaw and sons image"
+              />
+              <h3>Shaw and Sons</h3>
+              <p>
+                A sample website design for barber shop using HTML, CSS and
+                Javascript.
+              </p>
+              <div class="btn-container">
+                <a
+                  class="proj-link-btn"
+                  href="https://atharvakunte.github.io/barber-sample-website/"
+                  >View Project</a
+                >
+                <a
+                  href="https://github.com/atharvakunte/barber-sample-website"
+                  class="proj-code-btn"
+                  >View Source code</a
+                >
+              </div>
+            </div>
+            <div class="project">
+              <img
+                class="project-img"
+                src="./images/ecomss.png"
+                alt="Online store image"
+              />
+              <h3>Online Store (In progress)</h3>
+              <p>
+                E-commerce app built with Nodejs backend and React js frontend with
+                Razorpay integration.
+              </p>
+              <div class="btn-container">
+                <a class="proj-link-btn" href="#">View Project</a>
+                <a
+                  href="https://github.com/atharvakunte/ecommercenewfrontend"
+                  class="proj-code-btn"
+                  >View Frontend Source code</a
+                >
+                <a
+                  href="https://github.com/atharvakunte/Ecommercebackend"
+                  class="proj-code-btn"
+                  >View Backend Source code</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="contact-me-section">
+          <h2>Contact Me</h2>
+          <p>Want to hire me or just say Hi?</p>
+          <p>
+            Feel free to drop a mail at
+            <a class="email" href="mailto:kunteatharva@gmail.com"
+              >kunteatharva@gmail.com</a
+            >
+          </p>
+          
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
