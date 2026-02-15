@@ -1,269 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Kunte | Salesforce Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./styles/main.css" />
-    <title>Atharva Kunte</title>
-  </head>
-  <body>
-    <div class="main">
-      <div class="nav-mobile">
-        <div class="navbar">
-          <div class="nav-wrapper">
-              <a href="/"><img src="./images/me.jpg" class="nav-logo"></a>
-              <input type="checkbox" class="nav-toggle" id="nav-toggle">
-              <ul class="nav">
-                  <li><a href="/" class="nav-link">Home</a></li>
-                  <li><a href="https://blog.atharvakunte.me" class="nav-link">Blog</a></li>
-              </ul>
-              <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
-          </div>
-      </div>
-      </div>
-      <div class="nav-div">
-        <img class="about-img" src="./images/me.jpg" alt="Atharva Kunte" />
-        <h3>Atharva Kunte</h3>
-        <div class="nav-list">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="https://blog.atharvakunte.me">Blog</a></li>
-          </ul>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">A<span>K</span>.</div>
+            <div class="social-links" style="margin-top: 0; gap: 15px;">
+                <a href="mailto:kunteatharva@gmail.com" style="width: 35px; height: 35px; font-size: 0.9rem;"><i class="fas fa-envelope"></i></a>
+            </div>
         </div>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/atharva-kunte-41a398172/"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-          <a href="https://www.facebook.com/Athsamkun"
-            ><i class="fab fa-facebook-square"></i
-          ></a>
-          <a href="https://twitter.com/kunte_atharva"
-            ><i class="fab fa-twitter-square"></i
-          ></a>
-          <a href="https://www.instagram.com/atharva.kunte/"
-            ><i class="fab fa-instagram-square"></i
-          ></a>
-        </div>
-      </div>
-      <div class="content-div">
-        <header class="header-section">
-          <span class="header-design">< /></span>
-          <h1>Hi!</h1>
-          <h2>I'm Atharva,</h2>
-          <h2 class="typewriter-text">a web developer</h2>
-        </header>
-        <section class="about-me-section">
-          <h2>About me</h2>
-          <div class="about-container">
-            <p class="about-p">
-              I'm Atharva Kunte, a final year Electronics and Telecommunication
-              undergrad at Pimpri Chinchwad College of Engineering, Pune. I have an
-              interest in web development and like to make apps with good designs. I
-              have completed a bootcamp on MERN stack where learnt about javascript
-              frameworks like React js and Node.js.
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Atharva Kunte</h1>
+            <div style="display: inline-block;">
+                <span class="typing-text">6x Certified Salesforce Developer</span>
+            </div>
+            <p style="max-width: 600px; margin: 0 auto 30px; font-size: 1.1rem;">
+                Designing, implementing, and testing scalable solutions with high-quality results.
             </p>
-          </div>
-        </section>
-        <section class="skills-section">
-          <h2>My Skills</h2>
-          <div class="skills-container">
-            <div class="skill">
-              <div>
-                <h3>HTML</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-              </div>
+            <div class="social-links">
+                <a href="https://github.com/atharvakunte" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/kunteatharva" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://trailblazer.me/id/atharvakunte" target="_blank" title="Trailblazer"><i class="fa-brands fa-salesforce"></i></a>
             </div>
-            <div class="skill">
-              <div>
-                <h3>CSS</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-              </div>
+        </div>
+    </header>
+
+    <section id="about" class="container reveal">
+        <h2><i class="fas fa-user-astronaut" style="font-size: 2rem; margin-right: 15px;"></i>Profile Summary</h2>
+        <div class="glass summary-card">
+            <ul>
+                <li><strong>Results-driven Salesforce Certified Developer</strong> with over 3.5 years of proven experience driving end-to-end SFDC development and delivering high-quality, scalable solutions. </li>
+                <li><strong>Deep technical expertise</strong> in Salesforce configuration and customization, specializing in Apex (Classes, Triggers, Batch, APIs), Lightning Web Components (LWC), Lightning Message Service, and comprehensive testing methodologies including Jest and Apex Unit tests. </li>
+                <li><strong>Proficient across the entire Software Development Life Cycle (SDLC)</strong> within Agile Scrum environments, successfully managing both application development and production support from initial requirement gathering to design, build, and deployment. </li>
+                <li><strong>Skilled in modern DevOps practices</strong> and maintaining rigorous code quality, utilizing Git/GitHub for version control, metadata deployment via Gearset, and static code analysis tools like PMD and ESLint. </li>
+                <li><strong>Exceptional communicator and collaborative team player</strong>, highly experienced in partnering directly with multinational clients to translate complex business requirements into effective technical realities within fast-paced, dynamic environments. </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="container reveal">
+        <h2><i class="fas fa-code" style="font-size: 2rem; margin-right: 15px;"></i>Technical Skills</h2>
+        <div class="skills-container">
+            <div class="glass skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Programming</h3>
+                <p style="margin-bottom: 10px; font-size: 0.9rem;">Working Experience:</p>
+                <div class="skill-tags" style="margin-bottom: 20px;">
+                    <span class="skill-tag">Apex</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">Jest</span>
+                </div>
+                <p style="margin-bottom: 10px; font-size: 0.9rem;">Familiar With:</p>
+                <div class="skill-tags">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">SQL</span>
+                </div>
             </div>
-            <div class="skill">
-              <div>
-                <h3>Javascript</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
+            
+            <div class="glass skill-category">
+                <h3><i class="fab fa-salesforce"></i> Salesforce Core</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">LWC</span>
+                    <span class="skill-tag">Async Apex</span>
+                    <span class="skill-tag">Apex Integration</span>
+                    <span class="skill-tag">Flows</span>
+                    <span class="skill-tag">OOTB Configuration</span>
+                    <span class="skill-tag">Agentforce</span>
+                    <span class="skill-tag">Health Cloud</span>
+                    <span class="skill-tag">Experience Cloud</span>
+                </div>
             </div>
-            <div class="skill">
-              <div>
-                <h3>C++</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container reveal">
+        <h2><i class="fas fa-briefcase" style="font-size: 2rem; margin-right: 15px;"></i>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item left reveal">
+                <div class="glass timeline-content">
+                    <h3>Business Technology Solutions Associate</h3>
+                    <h4>ZS Associates</h4>
+                    <span class="date"><i class="far fa-calendar-alt"></i> Nov 2024 - Present | Pune, MH</span>
+                    <ul>
+                        <li>Implemented Salesforce Health Cloud to support Field Reimbursement Managers and their teams, enhancing their operations.</li>
+                        <li>Implemented Agentforce in an internal product based on Health Cloud to improve the productivity of case managers by around 50% helping them to draft emails, get summaries, get answers from knowledge documents, and generate call scripts.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="skill">
-              <div>
-                <h3>React js</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
+            
+            <div class="timeline-item right reveal">
+                <div class="glass timeline-content">
+                    <h3>Senior Software Engineer</h3>
+                    <h4>Persistent Systems</h4>
+                    <span class="date"><i class="far fa-calendar-alt"></i> Jun 2022 - Oct 2024 | Pune, MH</span>
+                    <ul>
+                        <li>Implemented an automated user de-provisioning on external systems (Outreach and DocuSign) using REST API Integration and Batch Apex which reduced manual activity.</li>
+                        <li>Developed and maintained custom Lightning Web Components (LWC), Apex Triggers, and Batch Apex to support Experience Cloud sites.</li>
+                        <li>Created Flows, Validation Rules, Email Templates, and customized Page Layouts.</li>
+                        <li>Implemented Salesforce security using Profiles, Permission Sets, and Role Hierarchy, ensuring high test coverage.</li>
+                    </ul>
+                </div>
             </div>
-            <div class="skill">
-              <div>
-                <h3>Node.js</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
+        </div>
+    </section>
+
+    <section id="education" class="container reveal">
+        <h2><i class="fas fa-graduation-cap" style="font-size: 2rem; margin-right: 15px;"></i>Education</h2>
+        <div class="grid-container">
+            <div class="glass card text-center">
+                <i class="fas fa-university"></i>
+                <h3>BE in Electronics & Telecommunication</h3>
+                <p>Pimpri Chinchwad College of Engineering</p>
+                <p style="color: var(--primary-color); margin-top: 10px;">CGPA: 9.31/10.0</p>
+                <p style="font-size: 0.8rem; margin-top: 5px;">June 2022 | Pune, MH</p>
             </div>
-            <div class="skill">
-              <div>
-                <h3>MongoDB</h3>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star g"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
+            <div class="glass card text-center">
+                <i class="fas fa-school"></i>
+                <h3>HSC (12th Grade)</h3>
+                <p>Yashoda Public Higher Secondary School</p>
+                <p style="color: var(--primary-color); margin-top: 10px;">Percentage: 82%</p>
+                <p style="font-size: 0.8rem; margin-top: 5px;">May 2018 | Nagpur, MH</p>
             </div>
-          </div>
-        </section>
-        <section class="project-section">
-          <h2>My Projects</h2>
-          <div class="projects-container">
-            <div class="project">
-              <img
-                class="project-img"
-                src="./images/gradientss.png"
-                alt="cricscore image"
-              />
-              <h3>Gradient Generator</h3>
-              <p>
-                A simple HTML, CSS and JS project where you can play around with
-                linear gradient css property.
-              </p>
-              <div class="btn-container">
-                <a
-                  class="proj-link-btn"
-                  href="https://atharvakunte.github.io/gradient-generator/"
-                  >View Project</a
-                >
-                <a
-                  href="https://github.com/atharvakunte/gradient-generator"
-                  class="proj-code-btn"
-                  >View Source code</a
-                >
-              </div>
+            <div class="glass card text-center">
+                <i class="fas fa-book"></i>
+                <h3>SSC (10th Grade)</h3>
+                <p>Somalwar High School</p>
+                <p style="color: var(--primary-color); margin-top: 10px;">Percentage: 92.4%</p>
+                <p style="font-size: 0.8rem; margin-top: 5px;">May 2016 | Nagpur, MH</p>
             </div>
-            <div class="project">
-              <img
-                class="project-img"
-                src="./images/cricscoress.png"
-                alt="cricscore image"
-              />
-              <h3>CricScore</h3>
-              <p>
-                Integrates Rapid API's Cricket live score API with React js to
-                display live cricket score.
-              </p>
-              <div class="btn-container">
-                <a class="proj-link-btn" href="https://cricscore-app.netlify.app/"
-                  >View Project</a
-                >
-                <a
-                  href="https://github.com/atharvakunte/cricscore-"
-                  class="proj-code-btn"
-                  >View Source code</a
-                >
-              </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="container reveal">
+        <h2><i class="fas fa-certificate" style="font-size: 2rem; margin-right: 15px;"></i>Certifications</h2>
+        <div class="grid-container" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            
+            <div class="glass card" style="align-items: center; text-align: center;">
+                <img src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/Administrator.png" alt="Salesforce Certified Administrator" class="badge-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg'; this.style.padding='20px';">
+                <h3>Administrator</h3>
             </div>
-            <div class="project">
-              <img
-                class="project-img"
-                src="./images/shawandsonsss.png"
-                alt="Shaw and sons image"
-              />
-              <h3>Shaw and Sons</h3>
-              <p>
-                A sample website design for barber shop using HTML, CSS and
-                Javascript.
-              </p>
-              <div class="btn-container">
-                <a
-                  class="proj-link-btn"
-                  href="https://atharvakunte.github.io/barber-sample-website/"
-                  >View Project</a
-                >
-                <a
-                  href="https://github.com/atharvakunte/barber-sample-website"
-                  class="proj-code-btn"
-                  >View Source code</a
-                >
-              </div>
+
+            <div class="glass card" style="align-items: center; text-align: center;">
+                <img src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/Platform-App-Builder.png" alt="Salesforce Certified Platform App Builder" class="badge-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg'; this.style.padding='20px';">
+                <h3>Platform App Builder</h3>
             </div>
-            <div class="project">
-              <img
-                class="project-img"
-                src="./images/ecomss.png"
-                alt="Online store image"
-              />
-              <h3>Online Store (In progress)</h3>
-              <p>
-                E-commerce app built with Nodejs backend and React js frontend with
-                Razorpay integration.
-              </p>
-              <div class="btn-container">
-                <a class="proj-link-btn" href="#">View Project</a>
-                <a
-                  href="https://github.com/atharvakunte/ecommercenewfrontend"
-                  class="proj-code-btn"
-                  >View Frontend Source code</a
-                >
-                <a
-                  href="https://github.com/atharvakunte/Ecommercebackend"
-                  class="proj-code-btn"
-                  >View Backend Source code</a
-                >
-              </div>
+
+            <div class="glass card" style="align-items: center; text-align: center;">
+                <img src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/Platform-Developer-I.png" alt="Salesforce Certified Platform Developer I" class="badge-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg'; this.style.padding='20px';">
+                <h3>Platform Developer I</h3>
             </div>
-          </div>
-        </section>
-        <footer class="contact-me-section">
-          <h2>Contact Me</h2>
-          <p>Want to hire me or just say Hi?</p>
-          <p>
-            Feel free to drop a mail at
-            <a class="email" href="mailto:kunteatharva@gmail.com"
-              >kunteatharva@gmail.com</a
-            >
-          </p>
-          
-        </footer>
-      </div>
-    </div>
-  </body>
+
+            <div class="glass card" style="align-items: center; text-align: center;">
+                <img src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/ai-associate.png?v=2" alt="Salesforce Certified AI Associate" class="badge-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg'; this.style.padding='20px';">
+                <h3>AI Associate</h3>
+            </div>
+
+            <div class="glass card" style="align-items: center; text-align: center;">
+                <img src="https://developer.salesforce.com/resources2/certification-site/images/Certifications-logo/2025-02_Badge_SF-Certified_Agentforce-Specialist_High-Res.png" alt="Salesforce Certified Agentforce Specialist" class="badge-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg'; this.style.padding='20px';">
+                <h3>Agentforce Specialist</h3>
+            </div>
+
+            <div class="glass card" style="align-items: center; text-align: center;">
+                <img src="https://developer.salesforce.com/resources2/certification-site/images/superbadges/2024-05_Badge-SF-Cert_CRM-Analytics-and-Einstein-Discovery-Consultant_High-Res.png" alt="Salesforce Certified Health Cloud Specialist" class="badge-img" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg'; this.style.padding='20px';">
+                <h3>CRM Analytics and Einstein Discovery Consultant</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Atharva Kunte.</p>
+        </div>
+    </footer>
+
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        reveal(); // Trigger once on load
+    </script>
+
+</body>
 </html>
